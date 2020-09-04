@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = secretkey
+SECRET_KEY = secretkey = '!z_w07q!c1tllsf=6a8dib0vm!wm5nf_37899ly0ksk6f1fb&i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -137,5 +137,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000'
+    'https://financial-freedom.netlify.app/'
 ]
